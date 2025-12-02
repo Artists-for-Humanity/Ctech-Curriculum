@@ -1,19 +1,15 @@
 const express = require('express');
+const path = require('path');
 
 const app = express();
-const PORT = 4000;
+const port = process.env.PORT || 8080;
 
+app.use(express.static(path.join(__dirname, 'public')));
 
-app.get('/', (req, res)=>{
-    res.status(200);
-    res.send("Root Route");
+app.get('/', function(req, res) {
+  res.sendFile(path.join(__dirname, 'public/index.html'));
 });
 
-
-app.listen(PORT, (error) =>{
-    if(!error)
-        console.log("Server is Successfully Running, and App is listening on port "+ PORT);
-    else 
-        console.log("Error occurred, server can't start", error);
-    }
-);
+app.listen(port, () => {
+  console.log('Server started at http://localhost:' + port);
+});

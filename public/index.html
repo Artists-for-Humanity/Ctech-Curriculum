@@ -3,30 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="style.css"> -->
     <title>Creative Tech ID Card</title>
 </head>
 <body>
-    <card class="card">
+    <main class="card">
         <div class="bar">
-            <div class="title">Creative Tech ID</div>
+            <h1 class="title">Creative Tech ID</h1>
         </div>
         <div class="main-content">
             <div class="top">
-                <img src="" alt="">
+                <img src="./images/hands.png" alt="" class="profile-pic">
                 <div class="info">
-                    <div class="info-item">
-                        <div class="label">Name</div>
-                        <div class="answer">John Doe</div>
+                    <div class="personal-info">
+                        <div class="info-item">
+                        <h2>Name:</h2>
+                        <div>John Doe </div>
                     </div>
                     <div class="info-item">
-                        <div class="label">Birthday</div>
-                        <div class="answer">January 1st, 2000</div>
+                        <h2>Birthday:</h2>
+                        <div >January 1st, 2000</div>
                     </div>
-                </div>
-                <div>
+                    </div>
+                <div class="preferences">
                     <div class="likes">
-                        <div class="label">Likes</div>
+                        <h2>Likes:</h2>
                         <ul class="answers">
                             <li>Coding</li>
                             <li>Music</li>
@@ -34,17 +35,36 @@
                         </ul>
                     </div>
                     <div class="dislikes">
-                        <div class="label">Dislikes</div>
+                        <h2>Dislikes:</h2>
                         <ul class="answers">
                             <li>Spam Emails</li>
                             <li>Slow Internet</li>
+                        </ul>
+                    </div>
+                </div>
+                </div>
+       
+            </div>
+            <div class="bottom">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam non ex auctor, posuere velit ut, facilisis diam. Nulla in ex elementum, ullamcorper ipsum sit amet, feugiat orci. Proin in velit in nunc suscipit molestie sed ut nisi.</p>
+                <div>
+                    <h2>Skills:</h2>
+                    <div class="skill-items">
+                        <div class="skill-item">Coding</div>
+                        <div class="skill-item">Running</div>
+                        <a class="skill-item language html" href="https://www.w3schools.com/html/" target="_blank">
+                            <img src="images/html.png" alt="html logo" >
+                        </a>
+                        <a class="skill-item language css" href="https://www.w3schools.com/css/" target="_blank"> 
+                            <img src="images/css.png" alt="css logo">
+                        </a>
+                          <a class="skill-item language js" href="https://www.w3schools.com/js/" target="_blank"> 
+                            <img src="images/js.png" alt="js logo">
+                        </a>
                     </div>
                 </div>
             </div>
-            <div class="bottom">
-
-            </div>
         </div>
-    </card>
+    </main>
 </body>
 </html>

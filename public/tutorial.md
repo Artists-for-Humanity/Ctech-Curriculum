@@ -3,8 +3,9 @@
 In this tutorial, you’ll build a full HTML document that displays a simple **Creative Tech ID Card**. We’ll start from scratch using the **HTML:5 boilerplate**, learn what each tag does, and assemble the content section by section.
 Styling (CSS) will come later for now, we’re focusing on clean, structured HTML.
 
-Here's a visual of what you will be making:
-<img src="images/final.png>" alt="final example image">
+Here's a visual of what you will be making, your's ofcourse will be more personalized: 
+
+![Final Example Image](./images/final.png "Optional title text")
 
 ---
 
@@ -153,6 +154,7 @@ Inside the content container, add a “top” section:
 
 | Tag      | Purpose                                                |
 | -------- | ------------------------------------------------------ |
+| `<h2>` | is the second-level heading on the page|
 | `<img>`  | Displays images                                        |
 | `alt=""` | Text shown to screen readers or if image fails to load |
 | `<ul>`   | Unordered list (bullet points)                         |
@@ -207,7 +209,7 @@ After the top section, add another `<div>` for the lower part of the ID card:
 
 ## **7. Final Full HTML File (No CSS Yet)**
 
-Here is the full clean version your students will build:
+Here is the full clean version you will build:
 
 ```html
 <!DOCTYPE html>
@@ -292,26 +294,3 @@ Here is the full clean version your students will build:
 ```
 
 ---
-
-## **8. Next Steps (After This Lesson)**
-
-Once students build this HTML structure, the next lesson should cover:
-
-* Adding CSS
-* Styling the layout
-* Positioning the profile picture
-* Creating columns for likes/dislikes
-* Adding backgrounds, borders, and spacing
-
-This gives them a **real-world HTML document** before touching CSS.
-
----
-
-If you want, I can now:
-
-✅ Convert this into a printable **PDF version**
-✅ Add diagrams illustrating each HTML section
-✅ Create a **CSS tutorial part 2**
-✅ Build a simplified version for younger teens
-
-Just tell me what you need next.

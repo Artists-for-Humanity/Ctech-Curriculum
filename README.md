@@ -48,7 +48,8 @@ To follow the tutorial while editing your code:
 2. Right-click the tab and choose **Open Preview**.
 
    * This gives you the rendered Markdown view.
-3. Open **index.html** in another tab.
+3. Right click on the **public** folder and create a new file **index.html** 
+4. Open **index.html** in another tab.
 4. Drag one tab to the side so you have **tutorial.md (Preview)** on one side and **index.html** on the other.
 
 This lets you read instructions and code at the same time.

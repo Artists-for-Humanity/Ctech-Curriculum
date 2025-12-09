@@ -40,6 +40,14 @@ body{
     max-width:625px;
 }
 
+@media screen and (max-width: 750px) {
+    .card{
+        flex-direction: column-reverse;
+        max-width: 350px;
+       padding: 15px;
+    }
+}
+
 .bar {
     background: var(--dark-primary);
     color: white;
@@ -49,6 +57,21 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+@media screen and (max-width: 750px) {
+
+    h1{
+        margin:0px;
+    }
+
+    .bar {
+        width: 100%;
+        min-width: auto;
+        padding: 8px 10px;
+        border-radius: 16px;
+        margin:10px 0px;
+    }
 }
 
 .bar .title {
@@ -64,12 +87,23 @@ body{
     letter-spacing: 3.9px;
     text-transform: uppercase;
 }
-
+@media screen and (max-width: 750px) {
+    .bar .title {
+        transform: rotate(0deg);
+        font-size: 25px;
+    }
+}
 .main-content {
     flex: 1;
     padding-left: 16px;
     display: flex;
     flex-direction: column;
+}
+
+@media screen and (max-width: 750px) {
+    .main-content {
+        padding-left: 0px;
+    }
 }
 
 .top{
@@ -86,13 +120,18 @@ body{
     justify-content: space-between;
     margin-left: 5px;
     width:100%;
-
 }
 
 .personal-info{
     border-bottom: 2px solid var(--dark-primary);
     padding-bottom:5px;
     margin-bottom:8px;
+}
+
+@media screen and (max-width: 750px) {
+    .personal-info{
+        border-bottom: 0px;
+    }
 }
 
 .info-item {
@@ -109,16 +148,43 @@ h2 {
     margin-right:20px;
 }
 
+@media screen and (max-width: 750px) {
+    .info-item{
+        flex-direction: column;
+        font-size:14px;
+       
+    }
+    .info-item h2{
+        padding: 10px 0px;
+    }
+
+    h2 {
+        font-size:14px;
+        margin-right:10px;
+    }
+}
+
 .profile-pic{
     border-radius: 15px;
     width: 185px;
     height: 168px;
 }
 
+@media screen and (max-width: 750px) {
+    .profile-pic{
+        width: 50%;
+        height: auto;
+    }
+}
+
 .preferences{
     display: flex;
     flex-direction: row;
 
+}
+
+.preferences.mobile{
+    display:none;
 }
 
 .preferences .likes,
@@ -128,14 +194,48 @@ h2 {
 
 .answers{
     font-size: 14px;
-    font-weight: 400;
-    line-height: 20px;
     margin: 0px;
   
 }
 
+@media screen and (max-width: 750px) {
+    .preferences.desktop{
+        display:none;
+    }
+
+    .preferences.mobile{
+        display:block; 
+        border-bottom: 2px solid var(--dark-primary);
+        padding:10px 0px;
+
+    }
+
+    .answers{
+        /* padding:0px 10px; */
+        font-size: 14px;
+    }
+    h2 {
+        font-size: 16px;
+    }
+
+    .preferences .likes , .preferences .dislikes{
+        display: flex;
+        flex-direction: row;
+        align-items: end;
+        width:100%;
+        font-size: 14px;
+    }
+}
+
 p {
     margin:5px 0px;
+}
+
+@media screen and (max-width: 750px) {
+ p {
+    font-size:14px;
+ }
+    
 }
 
 .skill-items{
@@ -153,6 +253,13 @@ p {
     border: 2px solid var(--dark-primary);
     border-radius: 10px;
     margin-right:6px;
+}
+
+@media screen and (max-width: 750px) {
+ .skill-item {
+    font-size:14px;
+ }
+    
 }
 
 .language{

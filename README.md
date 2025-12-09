@@ -1,9 +1,4 @@
-Ctech-Curriculum
-
-How to Open and Run This Project
-
 Follow these steps to clone the project from GitHub, open it in VS Code, run it locally, and work with the tutorial alongside your HTML file.
-
 
 
 ## 1. Clone the Project from GitHub

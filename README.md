@@ -26,6 +26,7 @@ Follow these steps to clone the project from GitHub, open it in VS Code, run it 
 2. Run the project with:
 
    ```bash
+   npm install
    node app.js
    ```
 

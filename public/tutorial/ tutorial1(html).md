@@ -5,7 +5,7 @@ Styling (CSS) will come later for now, we’re focusing on clean, structured HTM
 
 Here's a visual of what you will be making, your's ofcourse will be more personalized: 
 
-![Final Example Image](./images/final.png "Optional title text")
+![Final Example Image](../images/final.png "Optional title text")
 
 ---
 

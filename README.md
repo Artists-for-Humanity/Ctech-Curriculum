@@ -1,6 +1,3 @@
-Follow these steps to clone the project from GitHub, open it in VS Code, run it locally, and work with the tutorial alongside your HTML file.
-
-
 ## 1. Clone the Project from GitHub
 
 1. Go to the project page on **GitHub.com**.
@@ -55,35 +52,25 @@ Follow these steps to clone the project from GitHub, open it in VS Code, run it 
 
 To follow the tutorial while editing your code:
 
-1. In VS Code, open **tutorial1(html).md** by clicking on it.
+1. In VS Code, open the **public** folder and then **tutorial1(html).md** by clicking on it.
 2. Right-click the tab and choose **Open Preview**.
 
 ![OPEN-PREVIEW](./public/images/open-preview.png)
 
    * This gives you the rendered Markdown view.
-3. Open **index.html** in another tab( new tab button in top right corner)
+3. Open **the preview** in another tab( new tab button in top right corner)
 
 ![OPEN-PREVIEW](./public/images/second-tab.png)
 
 4. Drag one tab to the side so you have **tutorial1(html).md (Preview)** on one side and **index.html** on the other.
 
-This lets you read instructions and code at the same time.
+This lets you read instructions and code at the same time. eventually you will open other html and css files in the other tab.
 
----
-
-## 5. Follow the Tutorial & Build Files
-
-* Start with a **fresh index.html** file.
-* Follow the steps in `tutorial1(html).md`.
-* As you go, add content to **index.html** and create any additional files the tutorial requires.
-* Your changes will appear when you refresh your browser window that is showing the **localhost** link.
-
----
 
 ## 6. View Your Changes
 
-Whenever you update your HTML, CSS, or other files:
+Just a note, Whenever you update your HTML, CSS, or other files:
 
-* Save your changes
+* Save your changes ( CMD + S )
 * Refresh the browser window that opened from **node app.js**
 * You’ll see the update immediately

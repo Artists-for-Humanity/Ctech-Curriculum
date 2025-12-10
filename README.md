@@ -57,9 +57,9 @@ To follow the tutorial while editing your code:
 
 1. In VS Code, open **tutorial1(html).md** by clicking on it.
 2. Right-click the tab and choose **Open Preview**.
-<br>
+
 ![OPEN-PREVIEW](./public/images/open-preview.png)
-</br>
+
    * This gives you the rendered Markdown view.
 3. Open **index.html** in another tab( new tab button in top right corner)
 
